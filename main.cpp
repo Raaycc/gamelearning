@@ -13,7 +13,7 @@ int main(){
 	system("color F0");   
     setlocale(LC_ALL, "Portuguese");
     puts("\t#######\t\t Jogo da Forca !!\t\t#######\n\n");
-    puts("\t(¬.¬)\t   Bem-Vindo ao Jogo !!   (^o^)/\n\n");
+    puts("\t(Â¬.Â¬)\t   Bem-Vindo ao Jogo !!   (^o^)/\n\n");
     puts("\t\tInsira uma palavra:\n");
     printf("\t\t\t~>");
     scanf("%[^\n]s", p);
@@ -174,7 +174,7 @@ int main(){
         }
         if(chances == 0){
             system("cls");
-            printf("\t 	/(;-_-)   so chora fracasado 	(º-º)\n");
+            printf("\t 	/(;-_-)   so chora fracasado 	(Âº-Âº)\n");
             printf("\t\tA palravra e %s\n", p);
             final = 1;
             system("pause");
